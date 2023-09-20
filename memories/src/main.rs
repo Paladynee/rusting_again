@@ -22,7 +22,7 @@ fn main() {
     analyze_slice(&xs);
     analyze_slice(&xs[0..3]);
 
-    let empty: [u32; 0] = [];
+    // let empty: [u32; 0] = [];
 
     for i in 0..xs.len() + 1 {
         match xs.get(i) {
